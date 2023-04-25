@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style/dist/style.min.css" />
+    <script src="./app.js" defer type="module"></script>
+
+    <title>Resultat</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="attribution shadow rounded d-flex">
+      <section class="result bg-primary text-light p-3">
+        <h3 class="title mb-4">Your Result</h3>
+        <div
+          class="notes d-flex flex-column justify-content-center align-items-center mb-2"
+        >
+          <strong class="point">76</strong>
+          <span class="max fs-6">of 100</span>
+        </div>
+
+        <h2 class="">Great</h2>
+        <p class="fs-6 p-3">
+          You scored higher than 65% of the people who have taken these test
+        </p>
+      </section>
+      <section class="summary text-dark mx-3 ms-4">
+        <h4 class="text-start mt-3" style="opacity: 0.8;">Summary</h4>
+        <div class="list my-4">
+          <div
+            class="p-1 px-3 alert alert-danger border-0 fs-6 d-flex justify-content-between align-items-center item"
+          >
+            <div class="name">
+              <span class="icon me-1">
+                <img src="/assets/images/icon-memory.svg" alt="" />
+              </span>
+              <span class="name">Reaction</span>
+            </div>
+            <span class="point"><strong>80/</strong>100</span>
+          </div>
+        </div>
+        <button class="btn btn-dark d-block w-100 m-auto rounded-pill mt-4 text-light">Continue</button>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+$primary: hsl(228deg 55% 51%);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.attribution {
+  height: 400px;
+}
+.result {
+  width: 300px;
+  border-radius: 1.5rem;
+  .title {
+    opacity: 0.7;
+  }
+  .notes {
+    height: 43%;
+    width: 58%;
+    border-radius: 50%;
+    margin: auto;
+    background: linear-gradient(176deg, hsl(228deg 100% 32% / 58%), transparent);
+    .point{
+      font-size: 60px;
+    }
+    .max{
+      opacity: 0.7;
+    }
+  }
+
+}
+
+.list{
+  .item{
+    width: 250px;
+  }
+  .point{
+    font-size: 13px;
+  }
+}
+.summary{
+  button{
+    background: hsl(228deg 22% 25%);
+  }
+  button:active{
+    background-color: hsl(228, 45%, 44%) !important;
+  }
+}
